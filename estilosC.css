@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(131, 113, 160);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1.7em;
+    background-color: rgb(97, 106, 107);
+    border-radius: 20px solid;
+}
+
+.img-logo {
+    float: left;
+    width: 100px;
+    height: 90px;
+    margin-right: 590px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(171, 178, 185);
+    height: 100px;
+    align-items: center;
+    border: 2px solid;
+}
+
+.flex-container>div {
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+div#num1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(171, 178, 185);
+    height: 80px;
+    align-items: center;
+    border: 2px solid;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(171, 178, 185);
+    width: 100%;
+    height: 1150px;
+    border: 2px solid;
+}
+
+footer {
+    background-color: rgba(39, 38, 31, 0.883);
+    clear: both; /* Linea para cargar y limpiar elementos no flotantes, ojo que hay que ponerla*/
+    line-height: 30px;
+    text-align: center;
+    padding-left: 90px;
+    display: flex;
+    height: 200px;
+}
+
+.footer-links {
+    width: 30%;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.footer-links ul li a:hover {
+    color: rgb(255, 255, 255);
+    padding-left: 6px;
+}
+
+.social-link {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 5px;
+    color: white;
+}
+
+button {
+    background-color: rgb(119, 128, 128);
+    color: black;
+    padding: 1em 1.2em;
+    box-sizing: border-box;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: transform 0.2s ease-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
